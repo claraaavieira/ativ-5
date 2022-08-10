@@ -1,0 +1,39 @@
+Var
+a, resposta:caractere
+
+Inicio
+ escreval("qual o seu meio de transporte")
+ escreval()
+ escreval ("Escolha:- TERRESTRE - AÉREO - AQUÁTICO")
+ leia(a)
+ escreval()
+ escolha(a)
+caso 1
+ escreval("TERRESTRE.")
+ escreval()
+ escreval("CABE APENAS UMA PESSOA?")
+ leia(resposta)
+ se (resposta) = SIM entao
+ escreval()
+ escreval("PERGUNTA => É PESADO?")
+ leia(resposta)
+ se (resposta) = SIM entao
+
+escreval()
+escreval("RESPOSTA => Então é um TRATOR.")
+senao
+escreval()
+escreval("RESPOSTA => Então não é um TRATOR.")
+
+escreval()
+escreval("PERGUNTA => TEM PEDAL?")
+leia(resposta)
+se (resposta) = SIM
+escreval()
+escreval("RESPOSTA => Então é uma BICICLETA.")
+
+
+         
+
+
+Fimalgoritmo
